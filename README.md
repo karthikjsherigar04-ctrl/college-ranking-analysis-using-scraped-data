@@ -303,7 +303,8 @@ This project helped in gaining practical experience in:
 
 ## Karthik J
 
-AIML Student | Python Developer | Data Analytics Enthusiast
+AIML Student at Vidyavardhaka College of Engineering, Mysore  
+Python Developer | Data Analytics | Visualization Enthusiast
 
 ---
 
