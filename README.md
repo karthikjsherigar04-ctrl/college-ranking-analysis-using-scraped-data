@@ -1,7 +1,7 @@
 # College Ranking Analysis using Scraped Data
 
 <p align="center">
-  <img src="top10_colleges.png" width="850">
+  <img src="charts/top10_colleges.png" width="850">
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 This project performs **College Ranking Analysis** using data collected through **Web Scraping** techniques in Python. The project extracts engineering college ranking information, cleans and preprocesses the dataset, and generates insightful visualizations to analyze ranking patterns among top engineering institutions in India.
 
-The workflow demonstrates the practical implementation of:
+The workflow demonstrates practical implementation of:
 
 - Web Scraping
 - Data Cleaning
@@ -69,13 +69,14 @@ college-ranking-analysis-using-scraped-data/
 ├── raw_college_data.csv
 ├── cleaned_college_data.csv
 │
-├── top10_colleges.png
-├── rank_distribution.png
-├── top5_piechart.png
-├── iit_vs_nit.png
-├── college_types.png
-├── wordcloud.png
-├── rank_trend.png
+├── charts/
+│   ├── top10_colleges.png
+│   ├── rank_distribution.png
+│   ├── top5_piechart.png
+│   ├── iit_vs_nit.png
+│   ├── college_types.png
+│   ├── wordcloud.png
+│   └── rank_trend.png
 │
 ├── requirements.txt
 ├── README.md
@@ -90,7 +91,7 @@ college-ranking-analysis-using-scraped-data/
 - Cleans and preprocesses collected data
 - Performs ranking analysis
 - Generates professional visualizations
-- Identifies IIT, NIT, IIIT distributions
+- Identifies IIT, NIT, and IIIT distributions
 - Creates WordCloud analysis for colleges
 - Saves charts automatically
 
@@ -132,7 +133,7 @@ cleaned_college_data.csv
 
 # Step 3 : Data Visualization & Analysis
 
-The analysis module generates multiple visual insights.
+The analysis module generates multiple visual insights using Matplotlib and Seaborn.
 
 ---
 
@@ -141,7 +142,7 @@ The analysis module generates multiple visual insights.
 ## 1. Top 10 Engineering Colleges
 
 <p align="center">
-  <img src="top10_colleges.png" width="750">
+  <img src="charts/top10_colleges.png" width="750">
 </p>
 
 Displays the top-ranked engineering colleges using a professional gradient bar chart.
@@ -151,7 +152,7 @@ Displays the top-ranked engineering colleges using a professional gradient bar c
 ## 2. Rank Distribution Analysis
 
 <p align="center">
-  <img src="rank_distribution.png" width="750">
+  <img src="charts/rank_distribution.png" width="750">
 </p>
 
 Shows the overall distribution of college rankings using histogram and KDE analysis.
@@ -161,7 +162,7 @@ Shows the overall distribution of college rankings using histogram and KDE analy
 ## 3. Top 5 Colleges Pie Chart
 
 <p align="center">
-  <img src="top5_piechart.png" width="650">
+  <img src="charts/top5_piechart.png" width="650">
 </p>
 
 Visual representation of the top 5 engineering colleges.
@@ -171,7 +172,7 @@ Visual representation of the top 5 engineering colleges.
 ## 4. IIT vs NIT Distribution
 
 <p align="center">
-  <img src="iit_vs_nit.png" width="650">
+  <img src="charts/iit_vs_nit.png" width="650">
 </p>
 
 Compares the number of IITs and NITs in the ranking dataset.
@@ -181,7 +182,7 @@ Compares the number of IITs and NITs in the ranking dataset.
 ## 5. College Type Distribution
 
 <p align="center">
-  <img src="college_types.png" width="750">
+  <img src="charts/college_types.png" width="750">
 </p>
 
 Displays the distribution of IIT, NIT, IIIT, and other institutions.
@@ -191,7 +192,7 @@ Displays the distribution of IIT, NIT, IIIT, and other institutions.
 ## 6. College Name WordCloud
 
 <p align="center">
-  <img src="wordcloud.png" width="850">
+  <img src="charts/wordcloud.png" width="850">
 </p>
 
 WordCloud visualization highlighting frequently appearing college names.
@@ -201,7 +202,7 @@ WordCloud visualization highlighting frequently appearing college names.
 ## 7. Rank Trend Analysis
 
 <p align="center">
-  <img src="rank_trend.png" width="850">
+  <img src="charts/rank_trend.png" width="850">
 </p>
 
 Line plot showing ranking trends across institutions.
